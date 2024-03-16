@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED5E6B9A2BA57D89008FD71C /* SimonJazzCafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E6B992BA57D89008FD71C /* SimonJazzCafeApp.swift */; };
+		ED5E6B9C2BA57D89008FD71C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E6B9B2BA57D89008FD71C /* ContentView.swift */; };
+		ED5E6B9E2BA57D8B008FD71C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5E6B9D2BA57D8B008FD71C /* Assets.xcassets */; };
+		ED5E6BA12BA57D8B008FD71C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5E6BA02BA57D8B008FD71C /* Preview Assets.xcassets */; };
+		ED5E6BAB2BA57D8E008FD71C /* SimonJazzCafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E6BAA2BA57D8E008FD71C /* SimonJazzCafeTests.swift */; };
+		ED5E6BB52BA57D8E008FD71C /* SimonJazzCafeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E6BB42BA57D8E008FD71C /* SimonJazzCafeUITests.swift */; };
+		ED5E6BB72BA57D8E008FD71C /* SimonJazzCafeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E6BB62BA57D8E008FD71C /* SimonJazzCafeUITestsLaunchTests.swift */; };
+		ED5E6BC62BA57E89008FD71C /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E6BC52BA57E89008FD71C /* TransactionModel.swift */; };
+		ED5E6BC82BA58041008FD71C /* TransactionLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E6BC72BA58041008FD71C /* TransactionLog.swift */; };
+		ED5E6BCB2BA5841E008FD71C /* TransactionListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E6BCA2BA5841E008FD71C /* TransactionListModel.swift */; };
+		ED5E6BCD2BA58596008FD71C /* FirstScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E6BCC2BA58596008FD71C /* FirstScreenView.swift */; };
+		ED5E6BCF2BA59460008FD71C /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E6BCE2BA59460008FD71C /* TransactionView.swift */; };
+		ED5E6BD12BA59ACC008FD71C /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E6BD02BA59ACC008FD71C /* TransactionListView.swift */; };
+		ED5E6BD42BA5A3A1008FD71C /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E6BD32BA5A3A1008FD71C /* AddTransactionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED5E6BA72BA57D8E008FD71C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5E6B8E2BA57D89008FD71C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5E6B952BA57D89008FD71C;
+			remoteInfo = SimonJazzCafe;
+		};
+		ED5E6BB12BA57D8E008FD71C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5E6B8E2BA57D89008FD71C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5E6B952BA57D89008FD71C;
+			remoteInfo = SimonJazzCafe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED5E6B962BA57D89008FD71C /* SimonJazzCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonJazzCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5E6B992BA57D89008FD71C /* SimonJazzCafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonJazzCafeApp.swift; sourceTree = "<group>"; };
+		ED5E6B9B2BA57D89008FD71C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED5E6B9D2BA57D8B008FD71C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED5E6BA02BA57D8B008FD71C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED5E6BA62BA57D8E008FD71C /* SimonJazzCafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimonJazzCafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5E6BAA2BA57D8E008FD71C /* SimonJazzCafeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonJazzCafeTests.swift; sourceTree = "<group>"; };
+		ED5E6BB02BA57D8E008FD71C /* SimonJazzCafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimonJazzCafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5E6BB42BA57D8E008FD71C /* SimonJazzCafeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonJazzCafeUITests.swift; sourceTree = "<group>"; };
+		ED5E6BB62BA57D8E008FD71C /* SimonJazzCafeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonJazzCafeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED5E6BC52BA57E89008FD71C /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		ED5E6BC72BA58041008FD71C /* TransactionLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionLog.swift; sourceTree = "<group>"; };
+		ED5E6BCA2BA5841E008FD71C /* TransactionListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListModel.swift; sourceTree = "<group>"; };
+		ED5E6BCC2BA58596008FD71C /* FirstScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenView.swift; sourceTree = "<group>"; };
+		ED5E6BCE2BA59460008FD71C /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		ED5E6BD02BA59ACC008FD71C /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		ED5E6BD32BA5A3A1008FD71C /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED5E6B932BA57D89008FD71C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5E6BA32BA57D8E008FD71C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5E6BAD2BA57D8E008FD71C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED5E6B8D2BA57D89008FD71C = {
+			isa = PBXGroup;
+			children = (
+				ED5E6B982BA57D89008FD71C /* SimonJazzCafe */,
+				ED5E6BA92BA57D8E008FD71C /* SimonJazzCafeTests */,
+				ED5E6BB32BA57D8E008FD71C /* SimonJazzCafeUITests */,
+				ED5E6B972BA57D89008FD71C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED5E6B972BA57D89008FD71C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E6B962BA57D89008FD71C /* SimonJazzCafe.app */,
+				ED5E6BA62BA57D8E008FD71C /* SimonJazzCafeTests.xctest */,
+				ED5E6BB02BA57D8E008FD71C /* SimonJazzCafeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED5E6B982BA57D89008FD71C /* SimonJazzCafe */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E6B992BA57D89008FD71C /* SimonJazzCafeApp.swift */,
+				ED5E6BC42BA57E28008FD71C /* Models */,
+				ED5E6BC32BA57DD6008FD71C /* Views */,
+				ED5E6B9D2BA57D8B008FD71C /* Assets.xcassets */,
+				ED5E6B9F2BA57D8B008FD71C /* Preview Content */,
+			);
+			path = SimonJazzCafe;
+			sourceTree = "<group>";
+		};
+		ED5E6B9F2BA57D8B008FD71C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E6BA02BA57D8B008FD71C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED5E6BA92BA57D8E008FD71C /* SimonJazzCafeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E6BAA2BA57D8E008FD71C /* SimonJazzCafeTests.swift */,
+			);
+			path = SimonJazzCafeTests;
+			sourceTree = "<group>";
+		};
+		ED5E6BB32BA57D8E008FD71C /* SimonJazzCafeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E6BB42BA57D8E008FD71C /* SimonJazzCafeUITests.swift */,
+				ED5E6BB62BA57D8E008FD71C /* SimonJazzCafeUITestsLaunchTests.swift */,
+			);
+			path = SimonJazzCafeUITests;
+			sourceTree = "<group>";
+		};
+		ED5E6BC32BA57DD6008FD71C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E6B9B2BA57D89008FD71C /* ContentView.swift */,
+				ED5E6BCC2BA58596008FD71C /* FirstScreenView.swift */,
+				ED5E6BD02BA59ACC008FD71C /* TransactionListView.swift */,
+				ED5E6BCE2BA59460008FD71C /* TransactionView.swift */,
+				ED5E6BD32BA5A3A1008FD71C /* AddTransactionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED5E6BC42BA57E28008FD71C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E6BC52BA57E89008FD71C /* TransactionModel.swift */,
+				ED5E6BC72BA58041008FD71C /* TransactionLog.swift */,
+				ED5E6BCA2BA5841E008FD71C /* TransactionListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED5E6B952BA57D89008FD71C /* SimonJazzCafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5E6BBA2BA57D8E008FD71C /* Build configuration list for PBXNativeTarget "SimonJazzCafe" */;
+			buildPhases = (
+				ED5E6B922BA57D89008FD71C /* Sources */,
+				ED5E6B932BA57D89008FD71C /* Frameworks */,
+				ED5E6B942BA57D89008FD71C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimonJazzCafe;
+			productName = SimonJazzCafe;
+			productReference = ED5E6B962BA57D89008FD71C /* SimonJazzCafe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED5E6BA52BA57D8E008FD71C /* SimonJazzCafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5E6BBD2BA57D8E008FD71C /* Build configuration list for PBXNativeTarget "SimonJazzCafeTests" */;
+			buildPhases = (
+				ED5E6BA22BA57D8E008FD71C /* Sources */,
+				ED5E6BA32BA57D8E008FD71C /* Frameworks */,
+				ED5E6BA42BA57D8E008FD71C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5E6BA82BA57D8E008FD71C /* PBXTargetDependency */,
+			);
+			name = SimonJazzCafeTests;
+			productName = SimonJazzCafeTests;
+			productReference = ED5E6BA62BA57D8E008FD71C /* SimonJazzCafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED5E6BAF2BA57D8E008FD71C /* SimonJazzCafeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5E6BC02BA57D8E008FD71C /* Build configuration list for PBXNativeTarget "SimonJazzCafeUITests" */;
+			buildPhases = (
+				ED5E6BAC2BA57D8E008FD71C /* Sources */,
+				ED5E6BAD2BA57D8E008FD71C /* Frameworks */,
+				ED5E6BAE2BA57D8E008FD71C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5E6BB22BA57D8E008FD71C /* PBXTargetDependency */,
+			);
+			name = SimonJazzCafeUITests;
+			productName = SimonJazzCafeUITests;
+			productReference = ED5E6BB02BA57D8E008FD71C /* SimonJazzCafeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED5E6B8E2BA57D89008FD71C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					ED5E6B952BA57D89008FD71C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					ED5E6BA52BA57D8E008FD71C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED5E6B952BA57D89008FD71C;
+					};
+					ED5E6BAF2BA57D8E008FD71C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED5E6B952BA57D89008FD71C;
+					};
+				};
+			};
+			buildConfigurationList = ED5E6B912BA57D89008FD71C /* Build configuration list for PBXProject "SimonJazzCafe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED5E6B8D2BA57D89008FD71C;
+			productRefGroup = ED5E6B972BA57D89008FD71C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED5E6B952BA57D89008FD71C /* SimonJazzCafe */,
+				ED5E6BA52BA57D8E008FD71C /* SimonJazzCafeTests */,
+				ED5E6BAF2BA57D8E008FD71C /* SimonJazzCafeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED5E6B942BA57D89008FD71C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5E6BA12BA57D8B008FD71C /* Preview Assets.xcassets in Resources */,
+				ED5E6B9E2BA57D8B008FD71C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5E6BA42BA57D8E008FD71C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5E6BAE2BA57D8E008FD71C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED5E6B922BA57D89008FD71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5E6BD42BA5A3A1008FD71C /* AddTransactionView.swift in Sources */,
+				ED5E6BCB2BA5841E008FD71C /* TransactionListModel.swift in Sources */,
+				ED5E6BD12BA59ACC008FD71C /* TransactionListView.swift in Sources */,
+				ED5E6BC82BA58041008FD71C /* TransactionLog.swift in Sources */,
+				ED5E6BC62BA57E89008FD71C /* TransactionModel.swift in Sources */,
+				ED5E6BCD2BA58596008FD71C /* FirstScreenView.swift in Sources */,
+				ED5E6B9C2BA57D89008FD71C /* ContentView.swift in Sources */,
+				ED5E6BCF2BA59460008FD71C /* TransactionView.swift in Sources */,
+				ED5E6B9A2BA57D89008FD71C /* SimonJazzCafeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5E6BA22BA57D8E008FD71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5E6BAB2BA57D8E008FD71C /* SimonJazzCafeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5E6BAC2BA57D8E008FD71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5E6BB52BA57D8E008FD71C /* SimonJazzCafeUITests.swift in Sources */,
+				ED5E6BB72BA57D8E008FD71C /* SimonJazzCafeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED5E6BA82BA57D8E008FD71C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5E6B952BA57D89008FD71C /* SimonJazzCafe */;
+			targetProxy = ED5E6BA72BA57D8E008FD71C /* PBXContainerItemProxy */;
+		};
+		ED5E6BB22BA57D8E008FD71C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5E6B952BA57D89008FD71C /* SimonJazzCafe */;
+			targetProxy = ED5E6BB12BA57D8E008FD71C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED5E6BB82BA57D8E008FD71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED5E6BB92BA57D8E008FD71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED5E6BBB2BA57D8E008FD71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimonJazzCafe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.okstate.SimonJazzCafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED5E6BBC2BA57D8E008FD71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimonJazzCafe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.okstate.SimonJazzCafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED5E6BBE2BA57D8E008FD71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.okstate.SimonJazzCafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimonJazzCafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimonJazzCafe";
+			};
+			name = Debug;
+		};
+		ED5E6BBF2BA57D8E008FD71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.okstate.SimonJazzCafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimonJazzCafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimonJazzCafe";
+			};
+			name = Release;
+		};
+		ED5E6BC12BA57D8E008FD71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.okstate.SimonJazzCafeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimonJazzCafe;
+			};
+			name = Debug;
+		};
+		ED5E6BC22BA57D8E008FD71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.okstate.SimonJazzCafeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimonJazzCafe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED5E6B912BA57D89008FD71C /* Build configuration list for PBXProject "SimonJazzCafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5E6BB82BA57D8E008FD71C /* Debug */,
+				ED5E6BB92BA57D8E008FD71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5E6BBA2BA57D8E008FD71C /* Build configuration list for PBXNativeTarget "SimonJazzCafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5E6BBB2BA57D8E008FD71C /* Debug */,
+				ED5E6BBC2BA57D8E008FD71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5E6BBD2BA57D8E008FD71C /* Build configuration list for PBXNativeTarget "SimonJazzCafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5E6BBE2BA57D8E008FD71C /* Debug */,
+				ED5E6BBF2BA57D8E008FD71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5E6BC02BA57D8E008FD71C /* Build configuration list for PBXNativeTarget "SimonJazzCafeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5E6BC12BA57D8E008FD71C /* Debug */,
+				ED5E6BC22BA57D8E008FD71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED5E6B8E2BA57D89008FD71C /* Project object */;
+}
